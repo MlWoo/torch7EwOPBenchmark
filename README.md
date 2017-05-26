@@ -25,3 +25,30 @@ Please check the test scripts if you want to know more specifical operation para
 | openblas      |      cat             |     1.40        |      1.80       |
 | openblas      |:--------------------:| ---------------:|:---------------:|
 
+
+## Note
+I am sorry that the work is __temporary__ and ugly. More systmatic, smart and clean codes are working in process. Thanks for your concern.
+
+## Prerequirement 
+
+1.  Official Torch dependency.  
+  Refer to https://github.com/torch/distro please.  
+2.  internal-user Torch.      
+   (1). Clone offcial Torch code in another path. Modify the folder name as XXX.  
+   (2). using commands below to use interal_use torch package.
+   ```bash
+      cd /PATH/XXX/pkg/
+      rm -rf torch
+      git clone https://github.com/MlWoo/torch7.git torch -b internal-use
+      cd ../
+      ./install.sh
+   ```
+
+## How to run it
+
+__**Note**:__ You must keep chill awareness to tell which torch is used to test the benchmark. Using `which th` to check the versrion of torch.
+
+Using commands below to get the performance:
+```bash 
+th test_tmp.lua
+```
