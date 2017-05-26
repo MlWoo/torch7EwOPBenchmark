@@ -21,9 +21,9 @@ Please check the test scripts if you want to know more specifical operation para
 
 
 |  Library      |      Opreations      |   times(MlWoo)  | times(official) |
-|:-------------:|:--------------------:| ---------------:|:---------------:|
+|:-------------:|:--------------------:|:---------------:|:---------------:|
 | openblas      |      cat             |     1.40        |      1.80       |
-| openblas      |:--------------------:| ---------------:|:---------------:|
+| openblas      |:--------------------:|:---------------:|:---------------:|
 
 
 ## Note
