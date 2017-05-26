@@ -13,17 +13,17 @@ over these are defined. Additionally, it provides many utilities for
 accessing files, serializing objects of arbitrary types and other
 useful utilities.
 
-Torch 7 for __internal-user__ is the branch of [Torch 7](https://github.com/MlWoo/torch7)
+Torch 7 for __internal-user__ is the branch of [Torch7](https://github.com/MlWoo/torch7)
 created by MlWoo in order to speed up the elementwise operations such as copy, cadd, adds
 and so on on CPU platform.
 
 Please check the test scripts if you want to know more specifical operation parameters.
 
 
-|  Library      |      Opreations      |   times(MlWoo)  | times(official) |
-|:-------------:|:--------------------:|:---------------:|:---------------:|
-| openblas      |      cat             |     1.40        |      1.80       |
-| openblas      |:--------------------:|:---------------:|:---------------:|
+|  Library      |    Opreations     |   times(MlWoo)  | times(official) |
+|:-------------:|:-----------------:|:---------------:|:---------------:|
+| openblas      |      cat          |     1.40s       |      1.80s      |
+| openblas      |:-----------------:|:---------------:|:---------------:|
 
 
 ## Note
