@@ -46,7 +46,7 @@ I am sorry that the work is __temporary__ and ugly. More systmatic, smart and cl
 
 ## How to run it
 
-__**Note**:__ You must keep chill awareness to tell which torch is used to test the benchmark. Using `which th` to check the versrion of torch.
+__**Note**:__ You must keep chill awareness to tell which torch is used to test the benchmark. Using `which th` to check the versrion of torch before testing is a good idea.
 
 Using commands below to get the performance:
 ```bash 
